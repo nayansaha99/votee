@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  background-image: url(../img/bg_img.svg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.form-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.form {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  border: 2px solid green;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  color: blue;
+  align-items: center;
+  margin-right: 700px;
+}
+.form-box h2 {
+  color: rgb(20, 108, 224);
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+}
+font {
+  color: solid #000000;
+}
+.form-box .input-box {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid green;
+}
+
+.form-box .input-box input {
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0 20px 0 5px;
+  color: #000000;
+}
+i {
+  position: absolute;
+  color: #fff;
+  top: 13px;
+  right: 0;
+}
+input::placeholder {
+  color: green;
+}
+.btn {
+  color: #000000;
+  background: rgb(13, 158, 37);
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: 3px 0 10px rgb(111, 184, 168);
+
+}
+.group {
+  display: flex;
+  justify-content: space-between;
+}
+.group span a {
+  color: green;
+  position: relative;
+  top: 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.group a:focus {
+  text-decoration: underline;
+}
+#result {
+  color: red;
+  font-weight: 600;
+  position: relative;
+  top: 25px;
+}
+
+.modal {
+  visibility: hidden;
+  width: 0px;
+}
+
+.form-box p{
+  color: red;
+  font-weight: 600;
+  position: relative;
+  top: 120px;
+  display: none;
+  position: absolute;
+}
